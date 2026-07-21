@@ -459,6 +459,8 @@ h1{
 
     border-radius:50%;
 
+    pointer-events: none;
+
 }
 .event-flowerd{
 
@@ -471,6 +473,7 @@ h1{
     right:-40px;
 
      z-index: 3;
+     pointer-events:none;
 
 }
 .event-floweri{
@@ -482,6 +485,7 @@ h1{
     top:-20px;
 
     z-index: 3;
+     pointer-events:none;
 
 }
 
@@ -532,6 +536,8 @@ h1{
 
     transition:.3s;
 
+    position:relative;
+    z-index:100;
 }
 .location-btn:hover{
 
